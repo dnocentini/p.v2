@@ -8,8 +8,9 @@ import Projects from './pages/Projects/Projects';
 import Contact from './pages/Contact/Contact';
 import Footer from './components/Footer/Footer';
 
-import './App.css';
+import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 
+import './App.css';
 
 
 function App() {
@@ -21,9 +22,19 @@ function App() {
         </Grid>
         <Grid item xs style={{backgroundColor: 'red'}}>
           <Header />
-          <About />
-          <Projects />
-          <Contact />
+          <Router>
+            <Switch>
+              <Route path="/about">
+                <About />
+              </Route>
+              <Route path="/contact">
+                <Contact />
+              </Route>
+              <Route path="/">
+                <Projects />
+              </Route>
+            </Switch>
+          </Router>
           <Footer />
         </Grid>
       </Grid>
