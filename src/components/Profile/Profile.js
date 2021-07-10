@@ -1,5 +1,6 @@
 import { Typography } from '@material-ui/core'
 import React from 'react';
+import CustomTimeline from '../Timeline/Timeline';
 
 import './Profile.css';
 
@@ -14,7 +15,7 @@ const Profile = () => {
                 <img src={require('../../assets/images/me.jpg').default} alt=""/>
             </figure>
             <div className="profile_information">
-                Timeline
+                <CustomTimeline />
                 <br/>
                 <button>Download Cv</button>
 
