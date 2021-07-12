@@ -9,13 +9,22 @@ import resumeData from '../../utils/resumeData';
 
 import './Profile.css';
 
-const CustomTimelineItem = ({ title, text}) => (
+const CustomTimelineItem = ({ title, text, link }) => (
     <TimelineItem>
         <CustomTimelineSeparator />
-        <TimelineContent>
-                <Typography>
+        <TimelineContent className="timeline_content">
+            {link ? (
+                <Typography className="timelineItem_text">
+                    <span>{title}:</span>{" "}
+                    <a href={link} target='_blank'>
+                        {text}
+                    </a>
+                </Typography>
+            ) : (
+                <Typography className="timelineItem_text">
                     <span>{title}:</span> {text}
                 </Typography>
+            )}
         </TimelineContent>
     </TimelineItem>
 )
@@ -36,7 +45,10 @@ const Profile = () => {
                 <CustomTimeline icon={<PersonOutlineIcon />}>
                     <CustomTimelineItem title='Name' text={resumeData.name} />
                     <CustomTimelineItem title='Job' text={resumeData.title} />
-                    <CustomTimelineItem title='Email' text={resumeData.email} />
+
+                    {Object.keys(resumeData.contacts).map(key => (
+                        <CustomTimelineItem title={key} text={resumeData.contacts[key].text} link={resumeData.contacts[key].link}/>
+                    ))}
                 </CustomTimeline>
                 <br />
                 <button>Download Cv</button>
