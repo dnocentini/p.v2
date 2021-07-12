@@ -12,10 +12,6 @@
     min-height: 80px !important;
 }
 
-.timeline .timeline_firstItem {
-    min-height: 80px !important;
-}
-
 .timeline .MuiTimelineItem-root {
     min-height: 0px;
 }
