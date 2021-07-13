@@ -5,7 +5,6 @@ import Profile from './components/Profile/Profile';
 import Header from './components/Header/Header';
 import About from './pages/About/About';
 import Projects from './pages/Projects/Projects';
-import Contact from './pages/Contact/Contact';
 import Footer from './components/Footer/Footer';
 
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
@@ -26,9 +25,6 @@ function App() {
             <Switch>
               <Route path="/about">
                 <About />
-              </Route>
-              <Route path="/contact">
-                <Contact />
               </Route>
               <Route path="/">
                 <Projects />
