@@ -1,6 +1,26 @@
+/*About Section*/
 .aboutme_text {
     color: darkslategrey;
     font-size: smaller;
     line-height: 22px !important;
     text-indent: 50px;
+}
+
+/*Timeline Section*/
+.resume_timeline .timeline_title {
+    font-size: 14px !important;
+    font-weight: 500 !important;
+    white-space: pre-line;
+}
+
+.resume_timeline .timeline_date {
+    color:darkslategrey;
+
+}
+
+.resume_timeline .timeline_description {
+    color: #787878;
+    font-size: small;
+    margin-top: 8px;
+    white-space: pre-line;
 }
