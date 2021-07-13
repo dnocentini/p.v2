@@ -7,7 +7,7 @@ import About from './pages/About/About';
 import Projects from './pages/Projects/Projects';
 import Footer from './components/Footer/Footer';
 
-import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 import './App.css';
 
@@ -22,14 +22,16 @@ function App() {
         <Grid item xs >
           <Router>
             <Header />
-            <Switch>
-              <Route path="/about">
-                <About />
-              </Route>
-              <Route path="/">
-                <Projects />
-              </Route>
-            </Switch>
+            <div className='main_content container_shadow'>
+              <Switch>
+                <Route path="/">
+                  <About />
+                </Route>
+                <Route path="/projects">
+                  <Projects />
+                </Route>
+              </Switch>
+            </div>
           </Router>
           <Footer />
         </Grid>
