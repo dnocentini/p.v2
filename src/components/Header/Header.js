@@ -21,15 +21,15 @@ const Header = (props) => {
     return (
         <Navbar expand='lg' sticky='top' className='header'>
             {/*Home link*/}
-            <Nav.Link as={NavLink} to='/'></Nav.Link>
-            <Navbar.Brand className='header_home'>
-                <HomeRounded />
-            </Navbar.Brand>
-
+            <Nav.Link as={NavLink} to='/' className='header_navlink'>
+                <Navbar.Brand className='header_home'>
+                    <HomeRounded />
+                </Navbar.Brand>
+            </Nav.Link>
             <Navbar.Toggle />
 
             <Navbar.Collapse>
-                <Nav>
+                <Nav className='header_left'>
                     {/* About link */}
                     <Nav.Link 
                         as={NavLink} 
