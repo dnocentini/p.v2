@@ -9,7 +9,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background: url('./assets/images/bg.png');
-  background-color: #0a1930;
+  background-color: var(--main-color) !important;
   overflow: hidden;
 
 }
