@@ -46,5 +46,40 @@ export default {
             title: "Bachelor's Degree, Business Administration \n Universidade Paulista",
             date: '2007 - 2010'
         },
-    ]
+    ],
+
+    skills: [
+        {
+            title: 'FRONT-END',
+            description: [
+                'ReactJS',
+                'JavaScript',
+                'Material UI',
+                'Bootstrap',
+            ],
+        },    
+            
+        {
+            title: 'BACK-END',
+            description: [
+                'NodeJS',
+                'Python',
+            ],
+        },
+        {    
+            title: 'DATA-BASE',
+            description: [
+                'MongoDB',
+                'MySQL',
+            ],
+        },
+        {    
+            title: 'SOURCE-CONTROL',
+            description: [
+                'Git',
+                'GitHub',
+                'SCRUM/Agile',
+            ],
+        },
+    ],
 };

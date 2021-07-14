@@ -1,6 +1,6 @@
 import React from 'react';
-import { TimelineContent, TimelineItem } from '@material-ui/lab';
-import { Grid, Typography } from '@material-ui/core';
+import { TimelineContent, TimelineDot, TimelineItem } from '@material-ui/lab';
+import { Grid, Paper, Typography } from '@material-ui/core';
 import ComputerIcon from '@material-ui/icons/Computer';
 import SchoolIcon from '@material-ui/icons/School';
 import CustomTimeline, { CustomTimelineSeparator } from '../../components/Timeline/Timeline';
@@ -12,7 +12,7 @@ const About = () => {
     return (
         <>
             {/* About me */}
-            <Grid container className='section pb_45'>
+            <Grid container className='section pb_45 pt_45'>
                 <Grid item className='section_title mb_30'>
                     <span></span>
                     <Typography variant='h6' className='section_title_text'>About Me</Typography>
@@ -67,6 +67,29 @@ const About = () => {
                                 ))}
                             </CustomTimeline>
                         </Grid>
+                    </Grid>
+                </Grid>
+            </Grid>
+
+            {/* Skills */}
+            <Grid container className='section graybg pb_45 p_30'>
+                <Grid item xs={12}>
+                    <Grid container justify='space-between' spacing={3}>
+                        {resumeData.skills.map(skill => (
+                            <Grid item xs={12} sm={6} lg={3}>
+                                <Paper elevation={3} className='skill'>
+                                    <Typography variant='h6' className='skill_title'>
+                                        {skill.title}
+                                    </Typography>
+                                    {skill.description.map((element) => (
+                                        <Typography variant='body2' className='skill_description'>
+                                            <TimelineDot variant={'outlined'} className='timeline_dot' />
+                                            {element}
+                                        </Typography>
+                                    ))}
+                                </Paper>
+                            </Grid>
+                        ))}
                     </Grid>
                 </Grid>
             </Grid>
