@@ -6,9 +6,12 @@
     text-indent: 50px;
 }
 
+.aboutme_text > a {
+    color: #787878;
+}
+
 /*Timeline Section*/
 .resume_timeline .timeline_title {
-    font-size: 14px !important;
     font-weight: 500 !important;
     white-space: pre-line;
 }

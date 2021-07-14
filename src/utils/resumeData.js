@@ -25,7 +25,7 @@ export default {
         }  
     },
 
-    about: 'Hello! My name is Dinny Nocentini. I come from a business background, a field that taught me a lot about resilience, empathy, and teamwork. As a Software Engineer, I enjoy bridging the gap between engineering and design — combining my technical knowledge with my keen eye for design to create a beautiful product. My goal is to always build applications that are scalable and efficient under the hood while providing engaging and great user experiences.',
+    about: 'Hello! My name is Dinny Nocentini. I come from a business background, a field that taught me a lot about resilience, empathy, and teamwork. As a Software Engineer, I enjoy bridging the gap between engineering and design — combining my technical knowledge with my keen eye for design to create a beautiful product. My goal is to always build applications that are scalable and efficient under the hood while providing engaging, intuitive and dynamic user experiences.',
 
     experiences: [
         {
@@ -45,5 +45,12 @@ export default {
             title: "Bachelor's Degree, Business Administration \n Universidade Paulista",
             date: '2007 - 2010'
         },
+    ],
+
+    services: [
+        {
+            title: '',
+            
+        }
     ]
 };

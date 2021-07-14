@@ -18,7 +18,9 @@ const About = () => {
                     <Typography variant='h6' className='section_title_text'>About Me</Typography>
                 </Grid>
                 <Grid item xs={12}>
-                    <Typography variant='body2' className='aboutme_text'>{resumeData.about}</Typography>
+                    <Typography variant='body2' className='aboutme_text'>{resumeData.about}{" "}
+                        <a href='mailto: dinny0313@gmail.com' target='_blank'>Let's make something special</a>.
+                    </Typography>
                 </Grid>
             </Grid>
 
@@ -40,7 +42,7 @@ const About = () => {
                                     <TimelineItem>
                                         <CustomTimelineSeparator />
                                         <TimelineContent>
-                                            <Typography className='timeline_title'>{experience.title}</Typography>
+                                            <Typography variant='body2' className='timeline_title'>{experience.title}</Typography>
                                             <Typography variant='caption' className='timeline_date'>{experience.date}</Typography>
                                             <Typography variant='body2' className='timeline_description'>{experience.description}</Typography>
                                         </TimelineContent>
@@ -58,7 +60,7 @@ const About = () => {
                                     <TimelineItem>
                                         <CustomTimelineSeparator />
                                         <TimelineContent>
-                                            <Typography className='timeline_title'>{education.title}</Typography>
+                                            <Typography variant='body2' className='timeline_title'>{education.title}</Typography>
                                             <Typography variant='caption' className='timeline_date'>{education.date}</Typography>
                                         </TimelineContent>
                                     </TimelineItem>
