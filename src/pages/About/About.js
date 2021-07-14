@@ -19,7 +19,7 @@ const About = () => {
                 </Grid>
                 <Grid item xs={12}>
                     <Typography variant='body2' className='aboutme_text'>{resumeData.about}{" "}
-                        <a href='mailto: dinny0313@gmail.com' target='_blank'>Let's make something special</a>.
+                        <a href='mailto: dinny0313@gmail.com' rel="noreferrer" target='_blank'>Let's make something special</a>.
                     </Typography>
                 </Grid>
             </Grid>
