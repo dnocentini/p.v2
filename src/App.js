@@ -24,11 +24,11 @@ function App() {
             <Header />
             <div className='main_content container_shadow'>
               <Switch>
-                <Route path="/">
-                  <About />
-                </Route>
                 <Route path="/projects">
                   <Projects />
+                </Route>
+                <Route path="/">
+                  <About />
                 </Route>
               </Switch>
             </div>
