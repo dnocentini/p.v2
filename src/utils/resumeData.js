@@ -2,9 +2,10 @@ import React from "react";
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import EmailIcon from '@material-ui/icons/Email';
+import { Language } from "@material-ui/icons";
 
 
-export default {
+const Data = {
     name: 'Dinny Nocentini',
     title: 'Software Engineer',
 
@@ -82,4 +83,53 @@ export default {
             ],
         },
     ],
+
+    projects: [
+        {
+            tag: 'React',
+            image: require('../assets/images/me.jpg'),
+            title: 'Project 1',
+            caption: 'A short description',
+            description: 'descr1',
+            links: [
+                {link: 'https://www.google.com/', icon: <GitHubIcon />},
+                {link: 'https://www.google.com/', icon: <Language />},
+            ],
+        },
+        {
+            tag: 'JavaScript',
+            image: require('../assets/images/me.jpg'),
+            title: 'Project 2',
+            caption: 'A short description',
+            description: 'descr2',
+            links: [
+                {link: 'https://www.google.com/', icon: <GitHubIcon />},
+                {link: 'https://www.google.com/', icon: <Language />},
+            ],
+        },
+        {
+            tag: 'Python',
+            image: require('../assets/images/me.jpg'),
+            title: 'Project 3',
+            caption: 'A short description',
+            description: 'descr3',
+            links: [
+                {link: 'https://www.google.com/', icon: <GitHubIcon />},
+                {link: 'https://www.google.com/', icon: <Language />},
+            ],
+        },
+        {
+            tag: 'React',
+            image: require('../assets/images/me.jpg'),
+            title: 'Project 4',
+            caption: 'A short description',
+            description: 'descr4',
+            links: [
+                {link: 'https://www.google.com/', icon: <GitHubIcon />},
+                {link: 'https://www.google.com/', icon: <Language />},
+            ],
+        },
+    ],
 };
+
+export default Data;
