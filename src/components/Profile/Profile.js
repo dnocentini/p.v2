@@ -8,6 +8,7 @@ import TimelineItem from '@material-ui/lab/TimelineItem';
 import TimelineContent from '@material-ui/lab/TimelineContent';
 
 import resumeData from '../../utils/resumeData';
+import PDF from '../../assets/documents/Resume.pdf'
 
 import './Profile.css';
 
@@ -53,7 +54,7 @@ const Profile = () => {
                     ))}
                 </CustomTimeline>
                 <div className='button_container'>
-                    <CustomButton text='Download Cv' icon={<GetAppIcon />} />
+                    <CustomButton href={PDF}  text='Download Cv' icon={<GetAppIcon />} />
                 </div>    
 
             </div>

@@ -55,7 +55,7 @@ const Header = (props) => {
                             {resumeData.contacts[key].icon}
                         </a>
                     ))}
-                    <CustomButton text={"Hire Me"} icon={<Telegram />} />
+                    <CustomButton href='mailto: dinny0313@gmail.com' text={"Hire Me"} icon={<Telegram />} />
                 </div>
             </Navbar.Collapse>
 
