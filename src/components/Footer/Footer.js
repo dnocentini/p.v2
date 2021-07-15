@@ -15,8 +15,6 @@ const Footer = () => {
                     <a href='/' target='_blank'>
                         Dnocentini
                     </a>.
-                    <br />
-                        Copyright © 2021.
                 </Typography>
             </div>
         </div>
