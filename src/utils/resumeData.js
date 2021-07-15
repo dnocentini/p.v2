@@ -86,49 +86,58 @@ const Data = {
 
     projects: [
         {
-            tag: 'React',
-            image: require('../assets/images/projectsImg.jpeg').default,
-            title: 'Project 1',
-            caption: 'A short description',
-            description: 'descr1',
+            tag: 'ReactJS',
+            image: require('../assets/images/mmassage.png').default,
+            title: 'M Massage',
+            caption: 'Massage Therapist Website',
+            description: 'HTML CSS React.js',
             links: [
-                {link: 'https://www.google.com/', icon: <GitHubIcon />},
-                {link: 'https://www.google.com/', icon: <Language />},
+                {link: 'https://dnocentini.github.io/mmassage/', icon: <Language />},
+                {link: 'https://github.com/dnocentini/mmassage', icon: <GitHubIcon />},
+                
             ],
         },
         {
             tag: 'JavaScript',
-            image: require('../assets/images/projectsImg.jpeg').default,
-            title: 'Project 2',
-            caption: 'A short description',
-            description: 'descr2',
+            image: require('../assets/images/listy.png').default,
+            title: 'Listy',
+            caption: 'Cute To Do List',
+            description: 'JS Node Express MongoDB',
             links: [
-                {link: 'https://www.google.com/', icon: <GitHubIcon />},
-                {link: 'https://www.google.com/', icon: <Language />},
-            ],
+                {link: 'https://listy-ga.herokuapp.com/users', icon: <Language />},
+                {link: 'https://github.com/dnocentini/GA-Project2', icon: <GitHubIcon />},            ],
+        },
+        {
+            tag: 'ReactJS',
+            image: require('../assets/images/pv1.png').default,
+            title: 'Portfolio V1',
+            caption: 'My First Portfolio',
+            description: 'HTML CSS React.js',
+            links: [
+                {link: 'https://dnocentini.github.io/portfolio-app/', icon: <Language />},
+                {link: 'https://github.com/dnocentini/portfolio-app', icon: <GitHubIcon />},            ],
+        },
+        {
+            tag: 'JavaScript',
+            image: require('../assets/images/fg.png').default,
+            title: 'Flashcard Game',
+            caption: 'Math Game for Kids',
+            description: 'HTML CSS JavaScript',
+            links: [
+                {link: 'https://dnocentini.github.io/flashcard-game/', icon: <Language />},
+                {link: 'https://github.com/dnocentini/flashcard-game/', icon: <GitHubIcon />},            ],
         },
         {
             tag: 'Python',
-            image: require('../assets/images/projectsImg.jpeg').default,
-            title: 'Project 3',
-            caption: 'A short description',
-            description: 'descr3',
+            image: require('../assets/images/artw.png').default,
+            title: 'Art World',
+            caption: 'Art Galery Website',
+            description: 'Django Python',
             links: [
-                {link: 'https://www.google.com/', icon: <GitHubIcon />},
-                {link: 'https://www.google.com/', icon: <Language />},
-            ],
+                {link: 'https://artworld-sei.herokuapp.com/', icon: <Language />},
+                {link: 'https://github.com/dnocentini/artworld', icon: <GitHubIcon />},            ],
         },
-        {
-            tag: 'React',
-            image: require('../assets/images/projectsImg.jpeg').default,
-            title: 'Project 4',
-            caption: 'A short description',
-            description: 'descr4',
-            links: [
-                {link: 'https://www.google.com/', icon: <GitHubIcon />},
-                {link: 'https://www.google.com/', icon: <Language />},
-            ],
-        },
+        
     ],
 };
 

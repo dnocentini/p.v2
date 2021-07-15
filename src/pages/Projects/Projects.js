@@ -70,11 +70,15 @@ const Projects = () => {
                 </Grid>
             </Grid>
 
-            <Dialog open={projectDialog} onClose={() => setProjectDialog(false)}>
+            <Dialog 
+                open={projectDialog} 
+                onClose={() => setProjectDialog(false)} 
+                className='projectDialog'
+                fullWidth>
                 <DialogTitle onClose={() => setProjectDialog(false)}>
                     {projectDialog.title}
                 </DialogTitle>
-                <img src='' alt='' className='projectDialog_image' />
+                <img src={projectDialog.image} alt='' className='projectDialog_image' />
                 <DialogContent>
                     <Typography className='projectDialog_description'>{projectDialog.description}</Typography>
                 </DialogContent>

@@ -37,5 +37,32 @@
     font-weight: 400;
 }
 
+/* Dialog */
+.projectDialog .projectDialog_image {
+    max-height: 300px;
+    width: 100%;
+    object-fit: cover;
+    object-position: center center;
+}
 
 
+.projectDialog .projectDialog_discription {
+    margin-top: 10px !important;
+}
+.projectDialog .projectDialog_actions {
+    justify-content: center !important;
+    margin-bottom: 10px;
+}
+
+.projectDialog .projectDialog_icon {
+    color: var(--main-color);
+    cursor: pointer;
+}
+
+.projectDialog .projectDialog_icon :hover {
+    color: #787878;
+}
+
+.projectDialog .projectDialog_icon > .MuiSvgIcon-root {
+    font-size: 30px !important;
+}
