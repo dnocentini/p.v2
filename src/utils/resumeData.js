@@ -2,7 +2,7 @@ import React from "react";
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import EmailIcon from '@material-ui/icons/Email';
-import { Language } from "@material-ui/icons";
+import { Language } from '@material-ui/icons';
 
 
 const Data = {
@@ -68,14 +68,14 @@ const Data = {
             ],
         },
         {    
-            title: 'DATA-BASE',
+            title: 'DATABASE',
             description: [
                 'MongoDB',
                 'MySQL',
             ],
         },
         {    
-            title: 'SOURCE-CONTROL',
+            title: 'SOURCE CONTROL',
             description: [
                 'Git',
                 'GitHub',
@@ -87,7 +87,7 @@ const Data = {
     projects: [
         {
             tag: 'React',
-            image: require('../assets/images/me.jpg'),
+            image: require('../assets/images/projectsImg.jpeg').default,
             title: 'Project 1',
             caption: 'A short description',
             description: 'descr1',
@@ -98,7 +98,7 @@ const Data = {
         },
         {
             tag: 'JavaScript',
-            image: require('../assets/images/me.jpg'),
+            image: require('../assets/images/projectsImg.jpeg').default,
             title: 'Project 2',
             caption: 'A short description',
             description: 'descr2',
@@ -109,7 +109,7 @@ const Data = {
         },
         {
             tag: 'Python',
-            image: require('../assets/images/me.jpg'),
+            image: require('../assets/images/projectsImg.jpeg').default,
             title: 'Project 3',
             caption: 'A short description',
             description: 'descr3',
@@ -120,7 +120,7 @@ const Data = {
         },
         {
             tag: 'React',
-            image: require('../assets/images/me.jpg'),
+            image: require('../assets/images/projectsImg.jpeg').default,
             title: 'Project 4',
             caption: 'A short description',
             description: 'descr4',
