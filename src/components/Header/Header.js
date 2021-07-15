@@ -12,8 +12,10 @@ import {
 import CustomButton from '../Button/Button';
 import resumeData from '../../utils/resumeData';
 
+
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './Header.css';
+import { TimelineDot } from '@material-ui/lab';
 
 const Header = (props) => {
     const pathName = props.location.pathname;
@@ -23,7 +25,7 @@ const Header = (props) => {
             {/*Home link*/}
             <Nav.Link as={NavLink} to='/' className='header_navlink'>
                 <Navbar.Brand className='header_home'>
-                    <HomeRounded />
+                    <TimelineDot className='timeline_dot_header'>{<HomeRounded />}</TimelineDot>
                 </Navbar.Brand>
             </Nav.Link>
             <Navbar.Toggle />

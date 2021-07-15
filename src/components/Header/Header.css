@@ -30,12 +30,19 @@
 .header .header_home {
     background-color: #58dfc2 !important; 
     color: var(--main-color);
-    padding: 22px;
+    padding: 5px 20px 5px 20px;
     display: flex;
     justify-content: center;
     align-items: center;
     border-top-left-radius: 6px;
     border-bottom-left-radius: 6px;
+}
+
+.header .header_home .timeline_dot_header {
+    color: #58dfc2 !important; 
+    background-color: var(--main-color) !important;
+    font-size: small !important;
+    padding: 10px !important;
 }
 
 .header .header_left {

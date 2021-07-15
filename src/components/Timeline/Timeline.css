@@ -6,6 +6,7 @@
 
 .timeline .timeline_header {
     padding-top: 7px;
+    color: var(--main-color);
 }
 
 .timeline .timeline_firstItem {
@@ -31,7 +32,7 @@
 /* Remaining Items */
 
 .timeline .timeline_dot {
-    color: #0a1930;
+    color: var(--main-color);
     background-color: var(--main-color) !important;
     padding: 2px !important;
 }

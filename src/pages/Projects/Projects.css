@@ -1,6 +1,7 @@
 /* Tabs */
 .customTabs .active{
-    color: darkslategrey;
+    color: var(--main-color);
+    
 }
 
 .customTabs .customTabs_item {
