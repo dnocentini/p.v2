@@ -1,4 +1,4 @@
-# My Portfolio V2
+# Portfolio V2
 
 This project is a React app. I decided to create this new portfolio for fun and practice, and I really enjoyed the process.
 
