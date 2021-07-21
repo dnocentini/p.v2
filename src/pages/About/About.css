@@ -3,6 +3,8 @@
     font-size: smaller;
     line-height: 22px !important;
     text-indent: 50px;
+    white-space: pre-line;
+    
 }
 
 .aboutme_text > a {

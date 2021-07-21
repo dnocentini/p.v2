@@ -27,7 +27,7 @@ const Data = {
         }  
     },
 
-    about: 'Hello! My name is Dinny Nocentini. I come from a business background, a field that taught me a lot about resilience, empathy, and teamwork. As a Software Engineer, I enjoy bridging the gap between engineering and design — combining my technical knowledge with my keen eye for design to create a beautiful product. My goal is to always build applications that are scalable and efficient under the hood while providing engaging and great user experiences.',
+    about: "Hello! My name is Dinny Nocentini. I was born in Rio de Janeiro, Brazil, and have been living in Austin, TX, since 2015. \n I have a degree in Business Administration, and I worked in this area for a long time. This field taught me a lot about resilience, empathy, and teamwork. \n \n I have always been curious about technology, and very creative at solving problems. So, it was in 2019 when I decided to change my path. I started taking Computer Software Engineering classes at General Assembly, and I loved it. \n \n Today, as a Software Engineer, I enjoy bridging the gap between engineering and design — combining my technical knowledge with my keen eye for design to create a beautiful product. My goal is to always build applications that are scalable and efficient under the hood while providing engaging and great user experiences. \n \n Oh, and besides coding, I like to practice yoga, play games, read, travel, take pictures of nature, and spend time with my family and friends. \n \n If you'd like to work with me, please feel free to give me a call or send me an email!",
 
     experiences: [
         {
