@@ -87,18 +87,6 @@ const Data = {
     projects: [
         {
             tag: 'ReactJS',
-            image: require('../assets/images/pv2.png').default,
-            title: 'Portfolio',
-            caption: 'This Portfolio',
-            description: 'HTML CSS React.js',
-            links: [
-                {link: 'https://dnocentini.github.io/p.v2/', icon: <Language />},
-                {link: 'https://github.com/dnocentini/p.v2', icon: <GitHubIcon />},
-                
-            ],
-        },
-        {
-            tag: 'ReactJS',
             image: require('../assets/images/mmassage.png').default,
             title: 'M Massage',
             caption: 'Massage Therapist Website',
