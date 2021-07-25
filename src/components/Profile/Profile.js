@@ -6,13 +6,14 @@ import PersonOutlineIcon from '@material-ui/icons/PersonOutline';
 import GetAppIcon from '@material-ui/icons/GetApp';
 import TimelineItem from '@material-ui/lab/TimelineItem';
 import TimelineContent from '@material-ui/lab/TimelineContent';
+import ArrowRightIcon from '@material-ui/icons/ArrowRight';
 
 import resumeData from '../../utils/resumeData';
 import PDF from '../../assets/documents/Resume.pdf'
 
 import './Profile.css';
 
-const CustomTimelineItem = ({ title, text, link }) => (
+const CustomTimelineItem = ({ title, text, link}) => (
     <TimelineItem>
         <CustomTimelineSeparator />
         <TimelineContent className="timeline_content">
@@ -20,7 +21,7 @@ const CustomTimelineItem = ({ title, text, link }) => (
                 <Typography className="timelineItem_text">
                     <span>{title}:</span>{" "}
                     <a href={link} rel="noreferrer" target='_blank'>
-                        {text}
+                        {text} {<ArrowRightIcon />}
                     </a>
                 </Typography>
             ) : (
@@ -50,7 +51,7 @@ const Profile = () => {
                     <CustomTimelineItem title='Job' text={resumeData.title} />
 
                     {Object.keys(resumeData.contacts).map(key => (
-                        <CustomTimelineItem title={key} text={resumeData.contacts[key].text} link={resumeData.contacts[key].link}/>
+                        <CustomTimelineItem title={key} text={resumeData.contacts[key].text} link={resumeData.contacts[key].link} />
                     ))}
                 </CustomTimeline>
                 <div className='button_container'>
