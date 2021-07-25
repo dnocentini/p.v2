@@ -2,7 +2,7 @@ import React from "react";
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import EmailIcon from '@material-ui/icons/Email';
-import { Language } from '@material-ui/icons';
+import OpenInNewIcon from '@material-ui/icons/OpenInNew';
 
 
 const Data = {
@@ -92,7 +92,7 @@ const Data = {
             caption: 'Massage Therapist Website',
             description: 'HTML CSS React.js',
             links: [
-                {link: 'https://dnocentini.github.io/mmassage/', icon: <Language />},
+                {link: 'https://dnocentini.github.io/mmassage/', icon: <OpenInNewIcon />},
                 {link: 'https://github.com/dnocentini/mmassage', icon: <GitHubIcon />},
                 
             ],
@@ -104,7 +104,7 @@ const Data = {
             caption: 'Cute To Do List',
             description: 'JS Node Express MongoDB',
             links: [
-                {link: 'https://listy-ga.herokuapp.com/users', icon: <Language />},
+                {link: 'https://listy-ga.herokuapp.com/users', icon: <OpenInNewIcon />},
                 {link: 'https://github.com/dnocentini/GA-Project2', icon: <GitHubIcon />},            ],
         },
         {
@@ -114,7 +114,7 @@ const Data = {
             caption: 'My First Portfolio',
             description: 'HTML CSS React.js',
             links: [
-                {link: 'https://dnocentini.github.io/portfolio-app/', icon: <Language />},
+                {link: 'https://dnocentini.github.io/portfolio-app/', icon: <OpenInNewIcon />},
                 {link: 'https://github.com/dnocentini/portfolio-app', icon: <GitHubIcon />},            ],
         },
         {
@@ -124,7 +124,7 @@ const Data = {
             caption: 'Math Game for Kids',
             description: 'HTML CSS JavaScript',
             links: [
-                {link: 'https://dnocentini.github.io/flashcard-game/', icon: <Language />},
+                {link: 'https://dnocentini.github.io/flashcard-game/', icon: <OpenInNewIcon />},
                 {link: 'https://github.com/dnocentini/flashcard-game/', icon: <GitHubIcon />},            ],
         },
         {
@@ -134,7 +134,7 @@ const Data = {
             caption: 'Art Galery Website',
             description: 'Django Python',
             links: [
-                {link: 'https://artworld-sei.herokuapp.com/', icon: <Language />},
+                {link: 'https://artworld-sei.herokuapp.com/', icon: <OpenInNewIcon />},
                 {link: 'https://github.com/dnocentini/artworld', icon: <GitHubIcon />},            ],
         },
         
