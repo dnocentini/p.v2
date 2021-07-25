@@ -3,6 +3,7 @@ import { Container, Grid } from '@material-ui/core';
 
 import Profile from './components/Profile/Profile';
 import Header from './components/Header/Header';
+import Home from './pages/Home/Home';
 import About from './pages/About/About';
 import Resume from './pages/Resume/Resume';
 import Projects from './pages/Projects/Projects';
@@ -31,8 +32,11 @@ function App() {
                 <Route path="/resume">
                   <Resume />
                 </Route>
-                <Route path="/">
+                <Route path="/projects">
                   <Projects />
+                </Route>
+                <Route path="/">
+                  <Home />
                 </Route>
               </Switch>
             </div>
